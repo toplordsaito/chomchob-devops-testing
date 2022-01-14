@@ -4,8 +4,7 @@
 
 ## DevSecOps platform on GCP create by Terraform
 
-**Git Repository Infrastucture** : 
-**Git Repository Application** :
+**Application Git Repository** : [Express Test Chomchob](https://github.com/toplordsaito/example-express)
 
 ## Infrastructure Architecture Diagram
 
@@ -67,6 +66,8 @@ https://app-dev.chomchob.waruwat.work
 https://app-uat.chomchob.waruwat.work
 
 > สำหรับ username password ของแต่ละ services ผมจะส่งให้ที่ทาง email people@chomchob.com
+
+> manifest บางอันจะใช้ไม่ได้ทันที เพราะข้อมูลที่ sensitive บางส่วนจะถูกเซ็นเซอร์ เช่น cloudflare api key 
 
 > cluster นี้จะถูกทำลายลงภายใน 1 อาทิตย์หลังจากนี้ (22 JAN 2022)
 
