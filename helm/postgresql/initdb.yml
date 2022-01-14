@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-initdb
+  namespace: datastore
+data:
+  init.sql: |
+    CREATE DATABASE harbor;
+    CREATE USER harbor_user WITH ENCRYPTED PASSWORD 'waruwatpassword'; 
+    GRANT ALL PRIVILEGES ON DATABASE harbor TO harbor_user;
+    CREATE DATABASE sonarqube;
+    CREATE USER sonarqube_user WITH ENCRYPTED PASSWORD 'waruwatpassword'; 
+    GRANT ALL PRIVILEGES ON DATABASE sonarqube TO sonarqube_user;
+    CREATE DATABASE grafana;
+    CREATE USER grafana_user WITH ENCRYPTED PASSWORD 'waruwatpassword'; 
+    GRANT ALL PRIVILEGES ON DATABASE grafana TO grafana_user;
