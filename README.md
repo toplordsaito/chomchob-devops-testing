@@ -43,6 +43,7 @@
 - config-syncer
 - minio
 - postgresql
+- mariadb
 
 ### Endpoint
 
