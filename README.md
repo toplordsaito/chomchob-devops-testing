@@ -49,22 +49,22 @@
 
 #### URL Monitoring Tools
 
-https://graylog.chomchob.waruwat.work
-https://alertmanager.chomchob.waruwat.work
-https://grafana.chomchob.waruwat.work
-https://prometheus.chomchob.waruwat.work
+- https://graylog.chomchob.waruwat.work
+- https://alertmanager.chomchob.waruwat.work
+- https://grafana.chomchob.waruwat.work
+- https://prometheus.chomchob.waruwat.work
 
 #### URL DevOps Tools
 
-https://core-harbor.chomchob.waruwat.work
-https://jenkins.chomchob.waruwat.work
-https://sonarqube.chomchob.waruwat.work
+- https://core-harbor.chomchob.waruwat.work
+- https://jenkins.chomchob.waruwat.work
+- https://sonarqube.chomchob.waruwat.work
 
 #### URL Application
 
-https://app.chomchob.waruwat.work
-https://app-dev.chomchob.waruwat.work
-https://app-uat.chomchob.waruwat.work
+- https://app.chomchob.waruwat.work
+- https://app-dev.chomchob.waruwat.work
+- https://app-uat.chomchob.waruwat.work
 
 > สำหรับ username password ของแต่ละ services ผมจะส่งให้ที่ทาง email people@chomchob.com
 
